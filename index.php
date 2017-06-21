@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Hippo Corp Website">
-		<meta name="author" content="Luc Flynn and Lea McDuffie">
+		<meta name="author" content="Hippo Corp.">
 		<meta name="version" content="2.0">
 
 		<title>Hippo Corp.</title>
