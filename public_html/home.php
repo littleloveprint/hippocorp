@@ -265,7 +265,7 @@
 							</div>
 
 							<!-- GOOGLE RECAPTCHA -->
-							<div class="g-recaptcha" data-sitekey=""></div>
+							<div class="g-recaptcha" data-sitekey="6LclWCYUAAAAADzEtrLuwjzAewIMVkBGiGoTaH0T"></div>
 
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> SEND
 							</button>
