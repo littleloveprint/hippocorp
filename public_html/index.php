@@ -51,9 +51,8 @@
 		<div class="sfooter content">
 
 			<!--Navigation-->
-			<div class="container">
-				<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-
+			<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+				<div class="container">
 					<!-- brand and toggle get grouped for better mobile -->
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">Menu <i class="fa fa-bars"></i>
@@ -83,8 +82,8 @@
 							</li>
 						</ul>
 					</div>
-				</nav><!-- /.navbar-collapse -->
-			</div>
+				</div><!-- /.navbar-collapse -->
+			</nav>
 
 			<!-- Intro Header -->
 			<header class="intro">
@@ -102,7 +101,6 @@
 					</div>
 				</div>
 			</header>
-
 
 			<!-- About Section -->
 			<section id="about" class="container content-section text-center">
