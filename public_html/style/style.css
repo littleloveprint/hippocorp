@@ -1,5 +1,13 @@
-.navbar-custom,body {
+.navbar-custom {
 	background-color:#3152b3;
+	color: white;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.page-scroll {
 	color: white;
 }
 
@@ -82,7 +90,6 @@ body {
 	width: 100%;
 	height: 100%;
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-	color: black;
 	background-color: white;
 	align-items: center;
 }
@@ -99,6 +106,7 @@ h1 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+	color: black;
 }
 h2 {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -107,6 +115,7 @@ h2 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 22px;
+	color: black;
 }
 
 p {
@@ -117,6 +126,7 @@ p {
 	font-weight: 400;
 	line-height: 20px;
 	text-align: left;
+	color: black;
 }
 
 @media (min-width: 768px) {
