@@ -1,3 +1,7 @@
+html {
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
 .navbar-custom {
 	background-color:#3152b3;
 	color: white;
@@ -9,6 +13,17 @@
 
 .page-scroll {
 	color: white;
+}
+
+.slide {
+	position: relative;
+	padding: 25vh 10%;
+	min-height: 100vh;
+	width: 100vw;
+	box-sizing: border-box;
+	box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+	color: black;
 }
 
 /** Parallax Sections
@@ -107,6 +122,10 @@ h1 {
 	font-weight: 500;
 	line-height: 26.4px;
 	color: black;
+}
+
+.slide h1 {
+	font-size: 104px;
 }
 h2 {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
