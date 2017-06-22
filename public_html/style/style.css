@@ -28,10 +28,28 @@
 #section-2 {
 	z-index: 2;
 	position: relative;
-	background: #fff;
+	background: white;
 	width: 100%;
 }
 
+/** Our Clients/Portfolio **/
+#section-3 {
+	z-index: 1;
+	color: #fff;
+	height: 100vh;
+}
+#section-3 .row {
+	position: fixed;
+}
+
+/** Background **/
+#section-3 .parallax-layer-back {
+	background: url("../img/placeholder-hidden.png")no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 body {
 	width: 100%;
