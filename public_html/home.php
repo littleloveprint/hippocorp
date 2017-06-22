@@ -155,6 +155,46 @@
 				</div>
 			</div>
 
+			<!-- Our Work Section -->
+			<section id="our-work" class="content-section text-center">
+				<div class="row" id="special">
+					<div class="col-md-8 col-md-offset-2">
+						<h2>Our Clients and Projects</h2>
+						<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
+					</div>
+				</div>
+				<div class="our-work-section">
+					<div class="container">
+						<div class="col-md-8">
+							<img src="img/hippocorp.png" alt="Hippo Corp.">
+							<h2>Services</h2>
+							<div class="row">
+								<div class="col-md-5 col-md-offset-1">
+									<h3>Mobile App</h3>
+									<p>With over 80% of users accessing sites via their mobile devices, never has there been a more important time to have a mobile app. Build customer loyalty and streamline their experience by having your business at the touch of their fingers.</p>
+								</div>
+								<div class="col-md-5 col-md-offset-1">
+									<h3>Website</h3>
+									<p>Every business needs a website that is well designed and user friendly. We offer a variety of options from templates to custom sites. Our sites are always mobile first. Let our team of dynamic designers and coders take your company’s website into the 21st century.</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-5 col-md-offset-1">
+									<h3>Web App</h3>
+									<p>With our teams experience in LAMP Stack and Angular 4 development, your e-commerce, social media and networking sites will be secure, dynamic and innovative.</p>
+								</div>
+
+								<div class="col-md-5 col-md-offset-1">
+									<h3>Consulting</h3>
+									<p>In addition to providing great websites and mobile applications, Hippo Corp. can grow your business through our strategic use of social media and direct marketing.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<div class="row">
 				<div class="col-lg-8 col-md-offset-2">
 					<h2>Team Hippo</h2>
@@ -198,47 +238,6 @@
 									<h2>Luc Flynn</h2>
 									<h2>COO and Director of Consulting</h2>
 									<p>As an Albuquerque Native, Luc Flynn, knows the wonderful potential that the Southwest has for the tech industry. He has his B.A. in Communications from New Mexico State and has studied engineering and computer science. Luc, has successfully grown an e-commerce business turning what was the money he had in his wallet into a company that generates almost 500x his initial investment. He is the embodiment of the tenacity and drive that is at the heart of Hippo Corp. and that is why he oversees the operations of the company and acts as the primary project manager over our products. He has a background in C++, JavaScript, Swift, and LAMP stack.</p>
-								</div>
-							</div>
-						</div>
-					</section>
-
-					<!-- Our Work Section -->
-					<section id="our-work" class="content-section text-center">
-						<div class="row" id="special">
-							<div class="col-md-8">
-								<h2>Our Clients and Projects</h2>
-								<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
-							</div>
-						</div>
-						<div class="our-work-section">
-							<div class="container">
-								<div class="col-md-8">
-									<img src="img/hippocorp.png" alt="Hippo Corp.">
-									<h2>Services</h2>
-									<div class="row">
-										<div class="col-md-6">
-											<h3>Mobile App</h3>
-											<p>With over 80% of users accessing sites via their mobile devices, never has there been a more important time to have a mobile app. Build customer loyalty and streamline their experience by having your business at the touch of their fingers.</p>
-										</div>
-										<div class="col-md-6">
-											<h3>Website</h3>
-											<p>Every business needs a website that is well designed and user friendly. We offer a variety of options from templates to custom sites. Our sites are always mobile first. Let our team of dynamic designers and coders take your company’s website into the 21st century.</p>
-										</div>
-									</div>
-
-									<div class="row">
-
-										<div class="col-md-6">
-											<h3>Web App</h3>
-											<p>With our teams experience in LAMP Stack and Angular 4 development, your e-commerce, social media and networking sites will be secure, dynamic and innovative.</p>
-										</div>
-
-										<div class="col-md-6">
-											<h3>Consulting</h3>
-											<p>In addition to providing great websites and mobile applications, Hippo Corp. can grow your business through our strategic use of social media and direct marketing.</p>
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>
