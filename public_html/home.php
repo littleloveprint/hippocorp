@@ -216,23 +216,29 @@
 								<div class="col-md-8">
 									<img src="img/hippocorp.png" alt="Hippo Corp.">
 									<h2>Services</h2>
-									<h3>Mobile App</h3>
-									<p>With over 80% of users accessing sites via their mobile devices, never has there been a more important time to have a mobile app. Build customer loyalty and streamline their experience by having your business at the touch of their fingers.</p>
-								</div>
+									<div class="row">
+										<div class="col-md-6">
+											<h3>Mobile App</h3>
+											<p>With over 80% of users accessing sites via their mobile devices, never has there been a more important time to have a mobile app. Build customer loyalty and streamline their experience by having your business at the touch of their fingers.</p>
+										</div>
+										<div class="col-md-6">
+											<h3>Website</h3>
+											<p>Every business needs a website that is well designed and user friendly. We offer a variety of options from templates to custom sites. Our sites are always mobile first. Let our team of dynamic designers and coders take your company’s website into the 21st century.</p>
+										</div>
+									</div>
 
-								<div class="col-md-8">
-									<h3>Website</h3>
-									<p>Every business needs a website that is well designed and user friendly. We offer a variety of options from templates to custom sites. Our sites are always mobile first. Let our team of dynamic designers and coders take your company’s website into the 21st century.</p>
-								</div>
+									<div class="row">
 
-								<div class="col-md-8">
-									<h3>Web App</h3>
-									<p>With our teams experience in LAMP Stack and Angular 4 development, your e-commerce, social media and networking sites will be secure, dynamic and innovative.</p>
-								</div>
+										<div class="col-md-6">
+											<h3>Web App</h3>
+											<p>With our teams experience in LAMP Stack and Angular 4 development, your e-commerce, social media and networking sites will be secure, dynamic and innovative.</p>
+										</div>
 
-								<div class="col-md-8">
-									<h3>Consulting</h3>
-									<p>In addition to providing great websites and mobile applications, Hippo Corp. can grow your business through our strategic use of social media and direct marketing.</p>
+										<div class="col-md-6">
+											<h3>Consulting</h3>
+											<p>In addition to providing great websites and mobile applications, Hippo Corp. can grow your business through our strategic use of social media and direct marketing.</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
