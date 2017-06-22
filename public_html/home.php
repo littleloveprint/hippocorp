@@ -191,10 +191,8 @@
 				<div class="download-section">
 					<div class="container">
 						<div class="col-md-8 col-md-offset-2">
-							<h2>Our Clients</h2>
-						</div>
-						<div class="col-md-8 col-md-offset-2">
-							<h2>Our Projects</h2>
+							<h2>Our Clients and Projects</h2>
+							<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
 						</div>
 						<div class="col-md-8 col-md-offset-2">
 							<h2>Services</h2>
