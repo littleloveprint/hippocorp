@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Hippo Corp Website">
 		<meta name="author" content="Hippo Corp.">
-		<meta name="version" content="2.0">
+		<meta name="version" content="3.0">
 
 		<title>Hippo Corp.</title>
 
@@ -156,7 +156,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
+				<div class="col-lg-8 col-md-offset-2">
 					<h2>Team Hippo</h2>
 
 					<!-- Our Little Round Faces -->
@@ -205,30 +205,32 @@
 
 					<!-- Our Work Section -->
 					<section id="our-work" class="content-section text-center">
-						<div class="download-section">
+						<div class="row" id="special">
+							<div class="col-md-8">
+								<h2>Our Clients and Projects</h2>
+								<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
+							</div>
+						</div>
+						<div class="our-work-section">
 							<div class="container">
-								<div class="col-md-8 col-md-offset-2">
-									<h2>Our Clients and Projects</h2>
-									<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
-								</div>
-
-								<div class="col-md-8 col-md-offset-2">
+								<div class="col-md-8">
+									<img src="img/hippocorp.png" alt="Hippo Corp.">
 									<h2>Services</h2>
 									<h3>Mobile App</h3>
 									<p>With over 80% of users accessing sites via their mobile devices, never has there been a more important time to have a mobile app. Build customer loyalty and streamline their experience by having your business at the touch of their fingers.</p>
 								</div>
 
-								<div class="col-md-8 col-md-offset-2">
+								<div class="col-md-8">
 									<h3>Website</h3>
 									<p>Every business needs a website that is well designed and user friendly. We offer a variety of options from templates to custom sites. Our sites are always mobile first. Let our team of dynamic designers and coders take your company’s website into the 21st century.</p>
 								</div>
 
-								<div class="col-md-8 col-md-offset-2">
+								<div class="col-md-8">
 									<h3>Web App</h3>
 									<p>With our teams experience in LAMP Stack and Angular 4 development, your e-commerce, social media and networking sites will be secure, dynamic and innovative.</p>
 								</div>
 
-								<div class="col-md-8 col-md-offset-2">
+								<div class="col-md-8">
 									<h3>Consulting</h3>
 									<p>In addition to providing great websites and mobile applications, Hippo Corp. can grow your business through our strategic use of social media and direct marketing.</p>
 								</div>
@@ -239,14 +241,14 @@
 					<!-- Contact Section -->
 					<section id="contact" class="container content-section text-center">
 						<div class="row">
-							<div class="col-md-8 col-lg-offset-2">
+							<div class="col-md-8">
 								<h2>Contact Hippo Corp.</h2>
 							</div>
 						</div>
 
 						<!-- CONTACT FORM -->
-						<div class="row">
-							<div class="col-md-offset-2 col-md-8">
+						<div class="text-editor row">
+							<div class="col-md-8">
 								<form id="contact-form" action="php/mailer.php" method="post">
 									<div class="form-group">
 										<label for="name">NAME</label>
@@ -295,9 +297,9 @@
 									<!-- GOOGLE RECAPTCHA -->
 									<div class="g-recaptcha" data-sitekey="6LclWCYUAAAAADzEtrLuwjzAewIMVkBGiGoTaH0T"></div>
 
-									<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> SEND</button>
+									<button class="btn btn-send" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> SEND</button>
 
-									<button class="btn btn-default" type="reset">RESET</button>
+									<button class="btn btn-reset" type="reset">RESET</button>
 								</form>
 							</div>
 						</div>
@@ -309,26 +311,25 @@
 						</div>
 					</section>
 				</div><!-- /CONTACT FORM-->
-
-				<ul class="list-inline banner-social-buttons">
-					<li>
-						<a href="https://twitter.com/thehippoco" class="btn btn-default btn-circle"><i class="fa fa-twitter fa-fw"></i></a>
-					</li>
-					<li>
-						<a href="https://facebook.com/thehippoco" class="btn btn-default btn-circle"><i class="fa fa-facebook fa-fw"></i></a>
-					</li>
-					<li>
-						<a href="https://instagram.com/thehippoco" class="btn btn-default btn-circle"><i class="fa fa-instagram fa-fw"></i></a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/company-beta/22346094" class="btn btn-default btn-cirlce"><i class="fa fa-linkedin fa-fw"></i></a>
-					</li>
-				</ul>
 			</div>
 		</div>
 
 		<!-- sfooter-content-->
 		<footer>
+			<ul class="list-inline banner-social-buttons">
+				<li>
+					<a href="https://twitter.com/thehippoco" class="btn btn-default btn-circle"><i class="fa fa-twitter fa-fw"></i></a>
+				</li>
+				<li>
+					<a href="https://facebook.com/thehippoco" class="btn btn-default btn-circle"><i class="fa fa-facebook fa-fw"></i></a>
+				</li>
+				<li>
+					<a href="https://instagram.com/thehippoco" class="btn btn-default btn-circle"><i class="fa fa-instagram fa-fw"></i></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/company-beta/22346094" class="btn btn-default btn-circle"><i class="fa fa-linkedin fa-fw"></i></a>
+				</li>
+			</ul>
 			<div class="container">&copy; 2017 Hippo Corp.
 			</div>
 		</footer>

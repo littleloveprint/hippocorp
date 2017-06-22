@@ -276,10 +276,8 @@ a:focus {
 
 
 .btn-circle {
-	width: 70px;
+	width: 80px;
 	height: 70px;
-	margin-top: 15px;
-	padding: 7px 16px;
 	border: 2px solid #3152b3;
 	border-radius: 100% !important;
 	font-size: 40px;
@@ -312,13 +310,22 @@ a:focus {
 	-moz-animation-timing-function: linear;
 }
 
+.btn-send {
+	background: #3152b3;
+	color: white;
+}
+
+.btn-reset {
+	background: white;
+	color: #3152b3;
+}
+
 @media (min-width: 767px) {
 	.content-section {
 		padding-top: 250px;
 	}
-	.our-work-section {
+	.our-work-section.container {
 		padding: 100px 0;
-	}
 }
 
 .btn {
@@ -367,19 +374,38 @@ ul.banner-social-buttons {
 	}
 }
 
-#about,#special {
+#special {
 	background-color: #3152b3;
 }
 
-.container #team {
-	background-color: black;
-	color: white;
+#about,#clients {
+	background-color: #3152b3;
 }
 
-footer {
-	padding: 50px 0;
+.text-editor {
+	background-image: url("../img/placeholder-sun.png");
+	background-size: contain;
+	padding: 60px 50px;
+	border-radius: 12px;
+	margin-left: 15px;
 }
 
-footer p {
-	margin: 0;
+	.sfooter {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+
+	footer {
+		padding: 50px 0;
+	}
+
+	footer,ul,li {
+		align-items: center;
+		text-align: center;
+	}
+
+	footer p {
+		margin: 0;
+	}
 }
