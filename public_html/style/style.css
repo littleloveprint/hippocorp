@@ -91,7 +91,7 @@ div#parallax-bg-3{
 	z-index: 3;
 }
 
-/* Foreground */
+/** Foreground
 div#parallax-bg-3 div{
 	background-repeat:no-repeat;
 	position:absolute;
@@ -100,15 +100,20 @@ div#parallax-bg-3 div{
 }
 
 div#bg-3-1{
-	background:url("");
+	background:url("../img/");
 	width:529px;
 	height:757px;
 	top:-100px;
 	right:100px;
 }
 
-div#bg-3-2{
-	background:url("../img/place-balloon.png");
+**/
+
+/** Background images for parallax if wanted
+
+
+	div#bg-3-2{
+	background:url("../img/");
 	width:603px;
 	height:583px;
 	top:1050px;
@@ -116,7 +121,7 @@ div#bg-3-2{
 }
 
 div#bg-3-3{
-	background:url("../img/place-balloon3.png");
+	background:url("../img/");
 	width:446px;
 	height:713px;
 	top:1800px;
@@ -124,15 +129,18 @@ div#bg-3-3{
 }
 
 div#bg-3-4{
-	background:url("../img/place-farm.png");
+	background:url("../img/");
 	width:1104px;
 	height:684px;
 	top:2800px;
 	right:0px;
 }
-/** Middle Layer **/
+
+**/
+
+/** Middle Layer
 div#parallax-bg-2 div{
-	background:url("../img/place-cloud.png");
+	background:url("../img/");
 	background-repeat:no-repeat;
 	position:absolute;
 	display:block;
@@ -140,6 +148,8 @@ div#parallax-bg-2 div{
 	height:138px;
 	overflow:hidden;
 }
+
+**/
 
 div#bg-2-1{
 	top:100px;
@@ -181,27 +191,27 @@ div#parallax-bg-1 div{
 	overflow:hidden;
 }
 div#bg-1-1{
-	background:url("../img/place-cloud-sm.png");
+	background:url("../img/");
 	top:200px;
 	right:450px;
 }
 div#bg-1-2{
-	background:url("../img/temp.png");
+	background:url("../img/");
 	top:420px;
 	left:0px;
 }
 div#bg-1-3{
-	background:url("../img/place-cloud-sm.png");
+	background:url("../img/");
 	top:850px;
 	right:-290px;
 }
 div#bg-1-4{
-	background:url("../img/place-cloud-sm.png");
+	background:url("../img/");
 	top:1350px;
 	left:200px;
 }
 div#bg-1-5{
-	background:url("../img/place-cloud-lg.png");
+	background:url("../img/");
 	top:1200px;
 	left:-200px;
 }
