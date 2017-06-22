@@ -1,10 +1,37 @@
 .navbar-custom,body {
-	background-color:#000
+	background-color:#3152b3;
+	color: white;
 }
 
-.intro,body,html {
-	width: 100%
+/** Parallax Sections
+	Intro **/
+
+#section-1 {
+	z-index: 1;
+	color: #fff;
+	height: 100vh;
 }
+#section-1 .row {
+	position: fixed;
+}
+
+/** Background **/
+#section-1 .parallax-layer-back {
+	background: url("../img/tree-bridge.png")no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/** About Section -- No background image **/
+#section-2 {
+	z-index: 2;
+	position: relative;
+	background: #fff;
+	width: 100%;
+}
+
 
 body {
 	width: 100%;
@@ -47,24 +74,6 @@ p {
 	text-align: left;
 }
 
-blockquote {
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-	font-size: 21px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 30px;
-}
-
-pre {
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-	font-size: 13px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 18.5714px;
-}
-
 @media (min-width: 768px) {
 	p {
 		margin: 0 0 35px;
@@ -86,61 +95,6 @@ a:focus {
 	color: #3152b3;
 }
 
-.light {
-	font-weight: 400;
-}
-
-.intro {
-	display: table;
-	width: 100%;
-	height: auto;
-	padding: 100px 0;
-	text-align: center;
-	color: #3152b3;
-	background: url(../img/tree-bridge.png) no-repeat bottom center scroll;
-	background-color: white;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-
-.intro .intro-body {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.intro .intro-body .brand-heading {
-	padding: 5px;
-	margin: 5px;
-	font-size: 40px;
-}
-
-.intro .intro-body .intro-text {
-	padding: 5px;
-	margin: 5px;
-	font-size: 18px;
-}
-@media (min-width: 768px) {
-	.intro {
-		height: 100%;
-		padding: 5px;
-	}
-	.intro .intro-body .brand-heading {
-		font-size: 100px;
-		padding: 5px;
-		margin: 5px;
-	}
-	.intro .intro-body .intro-text {
-		font-size: 26px;
-		padding: 5px;
-		margin: 5px;
-	}
-}
-
-#values {
-	background: url("../img/placeholder-hippo.png");
-}
 
 .btn-circle {
 	width: 70px;
@@ -177,50 +131,6 @@ a:focus {
 	-moz-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 	-moz-animation-timing-function: linear;
-}
-@-webkit-keyframes pulse {
-	0% {
-		-webkit-transform: scale(1);
-		transform: scale(1);
-	}
-	50% {
-		-webkit-transform: scale(1.2);
-		transform: scale(1.2);
-	}
-	100% {
-		-webkit-transform: scale(1);
-		transform: scale(1);
-	}
-}
-@-moz-keyframes pulse {
-	0% {
-		-moz-transform: scale(1);
-		transform: scale(1);
-	}
-	50% {
-		-moz-transform: scale(1.2);
-		transform: scale(1.2);
-	}
-
-	100% {
-		-moz-transform: scale(1);
-		transform: scale(1);
-	}
-}
-
-.content-section {
-	padding-top: 100px;
-}
-
-.our-work-section {
-	width: 100%;
-	padding: 50px 0;
-	color: white;
-	background: url(../img/placeholder-hidden.png) no-repeat center center scroll;
-	background-color: black;
-	-webkit-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
 }
 
 @media (min-width: 767px) {
@@ -284,20 +194,4 @@ footer {
 
 footer p {
 	margin: 0;
-}
-
-::-moz-selection {
-	text-shadow: none;
-}
-
-::selection {
-	text-shadow: none;
-}
-
-img::selection {
-	background: transparent;
-}
-
-img::-moz-selection {
-	background: transparent;
 }
