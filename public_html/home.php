@@ -85,21 +85,23 @@
 				</div><!-- /.navbar-collapse -->
 			</nav>
 
-			<!-- Intro Header -->
-			<header class="intro">
-				<div class="intro-body">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8 col-md-offset-2">
-								<h1 class="brand-heading">Hippo Corp.</h1>
-								<p class="intro-text">Mobile Apps | Websites | Web Apps | Consulting</p>
-								<a href="#about" class="btn btn-circle page-scroll">
-									<i class="fa fa-angle-double-down animated"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
+			<!-- Main Parallax Wrapper -->
+			<div class="parallax">
+
+				<!-- Intro Header/First Section -->
+				<header class="intro">
+					<div class="parallax-section" id="section-1">
+						<div class="parallax-layer parallax-layer-base">
+
+							<!-- Container to Center Content -->
+							<div class="full-bg-img flex-center">
+								<ul>
+									<li>
+										<h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Hippo Corp.</h1>
+									</li>
+									<li>
+										<p class="wow fadeInDown" data-wow-delay="0.2s">Mobile Apps | Websites | Web Apps | Consulting</p>
+									</li>
 			</header>
 
 			<!-- About Section -->
