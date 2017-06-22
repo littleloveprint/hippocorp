@@ -27,7 +27,6 @@ html {
 }
 
 /** Parallax **/
-
 body{
 	background:rgba(230,231,232,1);
 	height:4600px;
@@ -64,6 +63,35 @@ div#parallax-bg-3{
 }
 
 /* Foreground */
+div#parallax-bg-1{
+	position: fixed;
+	width: 1200px;
+	top: 0;
+	left: 50%;
+	margin-left: -600px;
+	z-index: 1;
+}
+
+/** Background Layer **/
+div#parallax-bg-2{
+	position: fixed;
+	width: 1200px;
+	top: 0;
+	left: 50%;
+	margin-left: -600px;
+	z-index: 2;
+}
+/** Background Layer **/
+div#parallax-bg-3{
+	position: fixed;
+	width: 960px;
+	top: 0;
+	left: 50%;
+	margin-left: -470px;
+	z-index: 3;
+}
+
+/* Foreground */
 div#parallax-bg-3 div{
 	background-repeat:no-repeat;
 	position:absolute;
@@ -72,7 +100,7 @@ div#parallax-bg-3 div{
 }
 
 div#bg-3-1{
-	background:url("../img/hippocorp.png");
+	background:url("");
 	width:529px;
 	height:757px;
 	top:-100px;
@@ -80,7 +108,7 @@ div#bg-3-1{
 }
 
 div#bg-3-2{
-	background:url("../img/placeholder-sun.png");
+	background:url("../img/place-balloon.png");
 	width:603px;
 	height:583px;
 	top:1050px;
@@ -88,16 +116,23 @@ div#bg-3-2{
 }
 
 div#bg-3-3{
-	background:url("../img/placeholder-hidden.png");
+	background:url("../img/place-balloon3.png");
 	width:446px;
 	height:713px;
 	top:1800px;
 	right:140px;
 }
 
-/* middle layer clouds */
+div#bg-3-4{
+	background:url("../img/place-farm.png");
+	width:1104px;
+	height:684px;
+	top:2800px;
+	right:0px;
+}
+/** Middle Layer **/
 div#parallax-bg-2 div{
-	background:url("../img/tree-bridge.png");
+	background:url("../img/place-cloud.png");
 	background-repeat:no-repeat;
 	position:absolute;
 	display:block;
@@ -110,16 +145,33 @@ div#bg-2-1{
 	top:100px;
 	left:-310px;
 }
+
 div#bg-2-2{
 	top:270px;
 	right:-70px;
 }
+
 div#bg-2-3{
 	top:870px;
 	left:-300px;
 }
 
-/*background layer clouds */
+div#bg-2-4{
+	top:1120px;
+	right:-130px;
+}
+
+div#bg-2-5{
+	top:1620px;
+	left:140px;
+}
+
+div#bg-2-6{
+	top:720px;
+	left:340px;
+}
+
+/** Background Layer **/
 div#parallax-bg-1 div{
 	background-repeat:no-repeat;
 	position:absolute;
@@ -129,19 +181,29 @@ div#parallax-bg-1 div{
 	overflow:hidden;
 }
 div#bg-1-1{
-	background:url("");
+	background:url("../img/place-cloud-sm.png");
 	top:200px;
 	right:450px;
 }
 div#bg-1-2{
-	background:url("");
+	background:url("../img/temp.png");
 	top:420px;
 	left:0px;
 }
 div#bg-1-3{
-	background:url("");
+	background:url("../img/place-cloud-sm.png");
 	top:850px;
 	right:-290px;
+}
+div#bg-1-4{
+	background:url("../img/place-cloud-sm.png");
+	top:1350px;
+	left:200px;
+}
+div#bg-1-5{
+	background:url("../img/place-cloud-lg.png");
+	top:1200px;
+	left:-200px;
 }
 
 body {
@@ -172,7 +234,7 @@ h1 {
 }
 h2 {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-	font-size: 18px;
+	font-size: 32px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -261,7 +323,7 @@ a:focus {
 
 .btn {
 	text-transform: uppercase;
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-weight: 400;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -303,6 +365,15 @@ ul.banner-social-buttons {
 	ul.banner-social-buttons li:last-child {
 		margin-bottom: 0;
 	}
+}
+
+#about,#special {
+	background-color: #3152b3;
+}
+
+.container #team {
+	background-color: black;
+	color: white;
 }
 
 footer {
