@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,81 +47,101 @@
 	</head>
 
 	<body class="sfooter" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+		<div id="parallax-bg-3" class="parallax-bg">
+			<div id="bg-3-1"></div>
+			<div id="bg-3-2"></div>
+			<div id="bg-3-3"></div>
+			<div id="bg-3-4"></div>
+		</div>
+		<div id="parallax-bg-2" class="parallax-bg">
+			<div id="bg-2-1"></div>
+			<div id="bg-2-2"></div>
+			<div id="bg-2-3"></div>
+			<div id="bg-2-4"></div>
+			<div id="bg-2-5"></div>
+			<div id="bg-2-6"></div>
+		</div>
+		<div id="parallax-bg-1" class="parallax-bg">
+			<div id="bg-1-1"></div>
+			<div id="bg-1-2"></div>
+			<div id="bg-1-3"></div>
+			<div id="bg-1-4"></div>
+			<div id="bg-1-5"></div>
+		</div>
 
-		<div class="sfooter content">
+		<!--Navigation-->
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="container">
+				<!-- brand and toggle get grouped for better mobile -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">Menu <i class="fa fa-bars"></i>
+					</button>
 
-			<!--Navigation-->
-			<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-				<div class="container">
-					<!-- brand and toggle get grouped for better mobile -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">Menu <i class="fa fa-bars"></i>
-						</button>
+					<a class="navbar-brand page-scroll" href="#page-top">
+						<i class="fa fa-hashtag"></i> <span class="light">Hippo</span> Corp.
+					</a>
+				</div>
 
-						<a class="navbar-brand page-scroll" href="#page-top">
-							<i class="fa fa-hashtag"></i> <span class="light">Hippo</span> Corp.
-						</a>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+					<ul class="nav navbar-nav">
+
+						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about">About</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#our-work">Our Clients/Projects</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+
+		<!-- Main Parallax Wrapper -->
+		<div class="parallax">
+
+			<!-- Intro Header/First Section -->
+			<header class="intro">
+				<div class="parallax-section" id="section-1">
+					<div class="parallax-layer parallax-layer-base">
+
+						<!-- Container to Center Content -->
+						<div class="full-bg-img flex-center">
+							<div id="title" class="slide">
+								<h1>Hippo Corp.</h1>
+								<p></p>
+								<p>Mobile Apps | Websites | Web Apps | Consulting</p>
+							</div>
+						</div>
 					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-						<ul class="nav navbar-nav">
-
-							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-							<li class="hidden">
-								<a href="#page-top"></a>
-							</li>
-							<li>
-								<a class="page-scroll" href="#about">About</a>
-							</li>
-							<li>
-								<a class="page-scroll" href="#our-work">Our Clients/Projects</a>
-							</li>
-							<li>
-								<a class="page-scroll" href="#contact">Contact</a>
-							</li>
-						</ul>
-					</div>
-				</div><!-- /.navbar-collapse -->
-			</nav>
-
-			<!-- Main Parallax Wrapper -->
-			<div class="parallax">
-
-				<!-- Intro Header/First Section -->
-				<header class="intro">
-					<div class="parallax-section" id="section-1">
-						<div class="parallax-layer parallax-layer-base">
-
-							<!-- Container to Center Content -->
-							<div class="full-bg-img flex-center">
-								<ul>
-									<li>
-										<h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Hippo Corp.</h1>
-									</li>
-									<li>
-										<p class="wow fadeInDown" data-wow-delay="0.2s">Mobile Apps | Websites | Web Apps | Consulting</p>
-									</li>
 			</header>
 
 			<!-- About Section -->
-			<section id="about" class="container content-section text-center">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2" id="values">
-						<h2>Our Values</h2>
-						<p>Nimbleness<br>Efficiency<br>Elegance<br>Fearlessness</p>
+					<section id="about" class="container content-section text-center">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2" id="values">
+								<h2>Our Values</h2>
+								<p>Nimbleness<br>Efficiency<br>Elegance<br>Fearlessness</p>
+							</div>
+						</div>
+					</section>
+
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h2>What We Do</h2>
+							<p>Hippo Development creates marketplace applications in order to optimize flow between clients and their desired good or service. </p>
+						</div>
 					</div>
-				</div>
 
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<h2>What We Do</h2>
-						<p>Hippo Development creates marketplace applications in order to optimize flow between clients and their desired good or service. </p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-8 col-md-offset-2" id="special">
 						<h2>What Makes Us Special</h2>
 						<p>Hippo development has two major components. The first, Hippo Development, is a traditional client/service model particularly for market space applications. The second is Hippo Innovation, a collaborative team of tech professionals with additional unique backgrounds that collaborate to create innovative applications that answer a clear need in the marketplace. Hippo Innovations also houses our marketing and social media consulting team.</p>
 					</div>
@@ -141,7 +161,7 @@
 
 						<!-- Our Little Round Faces -->
 						<section>
-							<div class="container">
+							<div class="container" id="team">
 								<div class="row">
 									<div class="col-md-3">
 										<img class="img-responsive img-circle" src="img/place-your-face.png" alt="Billy Trabaudo">
@@ -182,15 +202,12 @@
 								</div>
 							</div>
 						</section>
-					</div>
-				</div>
-			</section>
 
-			<!-- Our Work Section -->
-			<section id="our-work" class="content-section text-center">
-				<div class="download-section">
-					<div class="container">
-						<div class="col-md-8 col-md-offset-2">
+						<!-- Our Work Section -->
+						<section id="our-work" class="content-section text-center">
+							<div class="download-section">
+								<div class="container">
+									<div class="col-md-8 col-md-offset-2">
 							<h2>Our Clients and Projects</h2>
 							<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
 						</div>
