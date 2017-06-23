@@ -23,7 +23,17 @@ html {
 	box-sizing: border-box;
 	box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
 	transform-style: inherit;
-	color: black;
+	color: white;
+	background-image: url("../img/hippo-banner.png");
+}
+
+.slide h1 {
+	font-size: 104px;
+	color: white;
+}
+
+.slide p {
+	color: white;
 }
 
 /** Parallax **/
@@ -250,9 +260,6 @@ h1 {
 	color: black;
 }
 
-.slide h1 {
-	font-size: 104px;
-}
 h2 {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-size: 32px;
@@ -440,7 +447,7 @@ ul.banner-social-buttons {
 }
 
 #about,#clients {
-	background-color: #3152b3;
+	background-image: url("../img/black-water.png");
 }
 
 .text-editor {
