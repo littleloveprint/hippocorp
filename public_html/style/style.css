@@ -24,7 +24,7 @@ html {
 	box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
 	transform-style: inherit;
 	color: white;
-	background-image: url("../img/");
+	/**background-image: url("../img/");**/
 }
 
 .slide h1 {
@@ -260,8 +260,8 @@ ul.banner-social-buttons {
 	}
 }
 
-#about,#clients {
-	background-image: url("../img/hippo-values.png");
+/**#about,#clients {
+	background-image: url("../img/");**/
 }
 
 .text-editor {
@@ -282,8 +282,8 @@ ul.banner-social-buttons {
 }
 
 /**.parallax {
-	background: url("../img/other-water.png");**/
-}
+	background: url("../img/other-water.png");
+}**/
 	.sfooter {
 		display: flex;
 		flex-direction: column;
@@ -302,4 +302,3 @@ ul.banner-social-buttons {
 	footer p {
 		margin: 0;
 	}
-}
