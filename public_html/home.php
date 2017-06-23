@@ -135,36 +135,32 @@
 
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2>What We Do</h2>
-					<p>Hippo Development creates marketplace applications in order to optimize flow between clients and their desired good or service. </p>
-				</div>
-			</div>
-
-			<div class="row" id="special">
-				<div class="col-md-8 col-md-offset-2">
-					<h2>What Makes Us Special</h2>
-					<p>Hippo development has two major components. The first, Hippo Development, is a traditional client/service model particularly for market space applications. The second is Hippo Innovation, a collaborative team of tech professionals with additional unique backgrounds that collaborate to create innovative applications that answer a clear need in the marketplace. Hippo Innovations also houses our marketing and social media consulting team.</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2>Brand</h2>
-					<h3>Why the Hippo?</h3>
-					<p>The hippo is Africa’s most feared and powerful animal. It is extremely territorial and yet also has a nobility found almost nowhere else in the animal kingdom. After a hippo has removed invading alligators, he allows for birds, fish, and antelope to drink and play in his waters. In a similar way, the members of Hippo Corp.  are territorial about our clients and tenacious about our leads. Yet also seek to create a wonderful ecosystem of innovation for our company to grow and foster. Hippo Corp. embodies the ferocious nobility of the Hippo.</p>
+					<input id="toggle" type="checkbox" checked>
+					<label for="toggle">About</label>
+					<div id="expand">
+						<section>
+							<h2>What We Do</h2>
+							<p>Hippo Development creates marketplace applications in order to optimize flow between clients and their desired good or service.</p>
+							<h2>What Makes Us Special</h2>
+							<p>Hippo development has two major components. The first, Hippo Development, is a traditional client/service model particularly for market space applications. The second is Hippo Innovation, a collaborative team of tech professionals with additional unique backgrounds that collaborate to create innovative applications that answer a clear need in the marketplace. Hippo Innovations also houses our marketing and social media consulting team.</p>
+							<h2>Why the Hippo?</h2>
+							<p>The hippo is Africa’s most feared and powerful animal. It is extremely territorial and yet also has a nobility found almost nowhere else in the animal kingdom. After a hippo has removed invading alligators, he allows for birds, fish, and antelope to drink and play in his waters. In a similar way, the members of Hippo Corp.  are territorial about our clients and tenacious about our leads. Yet also seek to create a wonderful ecosystem of innovation for our company to grow and foster. Hippo Corp. embodies the ferocious nobility of the Hippo.</p>
+						</section>
+					</div>
 				</div>
 			</div>
 
 			<!-- Our Work Section -->
 			<section id="our-work" class="content-section text-center">
-				<div class="row" id="special">
-					<div class="col-md-8 col-md-offset-2">
+				<div class="our-work-section">
+					<div class="container">
+						<div class="row" id="special">
+							<div class="col-md-8 col-md-offset-2">
 						<h2>Our Clients and Projects</h2>
 						<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
 					</div>
 				</div>
-				<div class="our-work-section">
-					<div class="container">
+
 						<div class="col-md-8">
 							<img src="img/hippocorp.png" alt="Hippo Corp.">
 							<h2>Services</h2>

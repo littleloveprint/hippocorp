@@ -196,7 +196,7 @@ div#bg-1-1{
 	right:450px;
 }
 div#bg-1-2{
-	background:url("../img/");
+	background:url("../img/temp.png");
 	top:420px;
 	left:0px;
 }
@@ -271,34 +271,48 @@ p {
 	color: black;
 }
 
-.Dropdown {
-	position: absolute;
-	display: block;
-}
-#Dropdown-Button {
-	position: relative;
-	display: block;
-	width: 80px;
-	height: 70px;
-	border: 2px solid #3152b3;
-	border-radius: 100% !important;
-	font-size: 40px;
-	color: #3152b3;
-	background: transparent;
-	-webkit-transition: background 0.3s ease-in-out;
-	-moz-transition: background 0.3s ease-in-out;
-	transition: background 0.3s ease-in-out;
-}
-
-.Dropdown-Menu {
+/** Collapse **/
+input {
 	display: none;
-	background-color: green;
-	margin-top: 10px;
-	position: relative;
+	visibility: hidden;
+}
+label {
+	display: inline-block;
+	padding: 0.5em;
+	text-align: center;
+	border-bottom: 1px solid #3152b3;
+	color: #3152b3;
+	font-size: 30px;
+}
+label:hover {
+	color: #000;
+}
+label::before {
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 24px;
+	content: "+";
+	vertical-align: text-top;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
 }
 
-.Dropdown:hover .Dropdown-Menu{
-	display: block;
+#expand {
+	height: 0px;
+	overflow: hidden;
+	transition: height 0.5s;
+	color: #3152b3;
+}
+section {
+	padding: 0 20px;
+}
+#toggle:checked ~ #expand {
+	height: 500px;
+}
+#toggle:checked ~ label::before {
+	content: "-";
 }
 
 @media (min-width: 768px) {
