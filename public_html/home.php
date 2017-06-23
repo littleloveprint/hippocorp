@@ -135,8 +135,8 @@
 
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<input id="toggle" type="checkbox" checked>
-					<label for="toggle">About</label>
+					<inputa id="toggle" type="checkbox" checked>
+					<labela for="toggle">About</labela>
 					<div id="expand">
 						<section>
 							<h2>What We Do</h2>
@@ -155,36 +155,38 @@
 				<div class="our-work-section">
 					<div class="container">
 						<div class="row" id="special">
-							<div class="col-md-8 col-md-offset-2">
-						<h2>Our Clients and Projects</h2>
-						<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
-					</div>
-				</div>
+							<div class="col-md-6 col-md-offset-3">
+								<h2>Our Clients and Projects</h2>
+								<p>Hippo Corp. will officially launch July 3rd, and our exciting client list is growing everyday. Stay tuned, as Albuquerque's best known businesses partner with Team Hippo.</p>
+							</div>
+						</div>
 
-						<div class="col-md-8">
+						<div class="col-md-12">
 							<img src="img/hippocorp.png" alt="Hippo Corp.">
 							<h2>Services</h2>
-							<div class="row">
-								<div class="col-md-5 col-md-offset-1">
-									<h3>Mobile App</h3>
-									<p>With over 80% of users accessing sites via their mobile devices, never has there been a more important time to have a mobile app. Build customer loyalty and streamline their experience by having your business at the touch of their fingers.</p>
-								</div>
-								<div class="col-md-5 col-md-offset-1">
-									<h3>Website</h3>
-									<p>Every business needs a website that is well designed and user friendly. We offer a variety of options from templates to custom sites. Our sites are always mobile first. Let our team of dynamic designers and coders take your company’s website into the 21st century.</p>
-								</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<h3>Mobile App</h3>
+								<p>With over 80% of users accessing sites via their mobile devices, never has there been a more important time to have a mobile app. Build customer loyalty and streamline their experience by having your business at the touch of their fingers.</p>
 							</div>
 
-							<div class="row">
-								<div class="col-md-5 col-md-offset-1">
-									<h3>Web App</h3>
-									<p>With our teams experience in LAMP Stack and Angular 4 development, your e-commerce, social media and networking sites will be secure, dynamic and innovative.</p>
-								</div>
+							<div class="col-md-6">
+								<h3>Website</h3>
+								<p>Every business needs a website that is well designed and user friendly. We offer a variety of options from templates to custom sites. Our sites are always mobile first. Let our team of dynamic designers and coders take your company’s website into the 21st century.</p>
+							</div>
+						</div>
 
-								<div class="col-md-5 col-md-offset-1">
-									<h3>Consulting</h3>
-									<p>In addition to providing great websites and mobile applications, Hippo Corp. can grow your business through our strategic use of social media and direct marketing.</p>
-								</div>
+						<div class="row">
+							<div class="col-md-6">
+								<h3>Web App</h3>
+								<p>With our teams experience in LAMP Stack and Angular 4 development, your e-commerce, social media and networking sites will be secure, dynamic and innovative.</p>
+							</div>
+
+							<div class="col-md-6">
+								<h3>Consulting</h3>
+								<p>In addition to providing great websites and mobile applications, Hippo Corp. can grow your business through our strategic use of social media and direct marketing.</p>
 							</div>
 						</div>
 					</div>
@@ -192,28 +194,28 @@
 			</section>
 
 			<div class="row">
-				<div class="col-lg-8 col-md-offset-2">
+				<div class="col-md-12 text-center">
 					<h2>Team Hippo</h2>
 
 					<!-- Our Little Round Faces -->
 					<section>
 						<div class="container" id="team">
 							<div class="row">
-								<div class="col-md-3">
+								<div class="col-md-4">
 									<img class="img-responsive img-circle" src="img/place-your-face.png" alt="Billy Trabaudo">
 									<h2>Billy Trabaudo</h2>
 									<h2>CEO and Managing Director</h2>
 									<p>Billy comes to Hippo Corp as a young man in years but an old man in experience. With a B.A. for St. John’s College and with a background in professional arts management/business he is a driven creative problem solver. Billy, has served on several nonprofit boards and has driven major overhauls of their business models saving them 100,000’s of dollars. In addition his background includes several high end sales positions in which he generated record high volume and returns. His tech background is as a LAMP stack developer with additional work in Angular 4 and Swift. He believes that at the heart of all good sales is product knowledge and hippo like persistence.</p>
 								</div>
 
-								<div class="col-md-3">
+								<div class="col-md-4">
 									<img class="img-responsive img-circle" src="img/mike.png" alt="Michael Harrison">
 									<h2>Michael Harrison</h2>
 									<h2>CTO</h2>
 									<p>Michael graduated from the University of New Mexico with a degree in Multimedia Development in 2006. He specializes in marketing & advertising, video and web programming development. Michael has been working in the industry professionally for over twelve years and has always enjoyed working in a field that allows him to be creative and at the same time presents a new challenge every day. For the last 7 years Michael has focused on PHP, Drupal and a number of other web related languages. Recently he has become a full LAMP Stack programming with a focus on Angular 2+ and mySQL databases.</p>
 								</div>
 
-								<div class="col-md-3">
+								<div class="col-md-4">
 									<img class="img-responsive img-circle" src="img/place-your-face.png" alt="Mary Rossman">
 									<h2>Mary Rossman</h2>
 									<h2>CFO</h2>
@@ -222,14 +224,14 @@
 							</div>
 
 							<div class="row">
-								<div class="col-md-3 col-md-offset-1">
+								<div class="col-md-4 col-md-offset-2">
 									<img class="img-responsive img-circle" src="img/lea.png" alt="Lea McDuffie">
 									<h2>Lea McDuffie</h2>
 									<h2>CMO</h2>
 									<p>Lea brings with her a prodigious degree in Advertising from the San Francisco Art Institute and the experience of running her own marketing startup. While at AISF she had her first experience with coding maintaining websites and doing branding for various companies. She has spent the last 10 years as a well known brand manager marketing creative across the United States. With the addition of LAMP stack and Swift to her coding repertoire, she will not only drive the branding and marketing for Hippo Corp. but also be a member of the development team.</p>
 								</div>
 
-								<div class="col-md-3 col-md-offset-1">
+								<div class="col-md-4 col-md-offset-2">
 									<img class="img-responsive img-circle" src="img/place-your-face.png" alt="Luc Flynn">
 									<h2>Luc Flynn</h2>
 									<h2>COO and Director of Consulting</h2>
@@ -242,14 +244,14 @@
 					<!-- Contact Section -->
 					<section id="contact" class="container content-section text-center">
 						<div class="row">
-							<div class="col-md-8">
+							<div class="col-md-12">
 								<h2>Contact Hippo Corp.</h2>
 							</div>
 						</div>
 
 						<!-- CONTACT FORM -->
 						<div class="text-editor row">
-							<div class="col-md-8">
+							<div class="col-md-6 col-md-offset-3">
 								<form id="contact-form" action="php/mailer.php" method="post">
 									<div class="form-group">
 										<label for="name">NAME</label>

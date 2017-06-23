@@ -190,6 +190,8 @@ div#parallax-bg-1 div{
 	height:138px;
 	overflow:hidden;
 }
+
+/**
 div#bg-1-1{
 	background:url("../img/");
 	top:200px;
@@ -215,6 +217,7 @@ div#bg-1-5{
 	top:1200px;
 	left:-200px;
 }
+**/
 
 .flex-center {
 	text-align: center;
@@ -272,11 +275,11 @@ p {
 }
 
 /** Collapse **/
-input {
+inputa {
 	display: none;
 	visibility: hidden;
 }
-label {
+labela {
 	display: inline-block;
 	padding: 0.5em;
 	text-align: center;
@@ -284,10 +287,10 @@ label {
 	color: #3152b3;
 	font-size: 30px;
 }
-label:hover {
+labela:hover {
 	color: #000;
 }
-label::before {
+labela::before {
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -311,7 +314,7 @@ section {
 #toggle:checked ~ #expand {
 	height: 500px;
 }
-#toggle:checked ~ label::before {
+#toggle:checked ~ labela::before {
 	content: "-";
 }
 
@@ -448,6 +451,10 @@ ul.banner-social-buttons {
 	margin-left: 15px;
 }
 
+.img-circle {
+	height: 300px;
+	width: 300px;
+}
 	.sfooter {
 		display: flex;
 		flex-direction: column;
