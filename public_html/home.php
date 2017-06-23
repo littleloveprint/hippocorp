@@ -47,31 +47,11 @@
 	</head>
 
 	<body class="sfooter" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-		<div id="parallax-bg-3" class="parallax-bg">
-			<div id="bg-3-1"></div>
-			<div id="bg-3-2"></div>
-			<div id="bg-3-3"></div>
-			<div id="bg-3-4"></div>
-		</div>
-		<div id="parallax-bg-2" class="parallax-bg">
-			<div id="bg-2-1"></div>
-			<div id="bg-2-2"></div>
-			<div id="bg-2-3"></div>
-			<div id="bg-2-4"></div>
-			<div id="bg-2-5"></div>
-			<div id="bg-2-6"></div>
-		</div>
-		<div id="parallax-bg-1" class="parallax-bg">
-			<div id="bg-1-1"></div>
-			<div id="bg-1-2"></div>
-			<div id="bg-1-3"></div>
-			<div id="bg-1-4"></div>
-			<div id="bg-1-5"></div>
-		</div>
 
 		<!--Navigation-->
 		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
 			<div class="container">
+
 				<!-- brand and toggle get grouped for better mobile -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">Menu <i class="fa fa-bars"></i>
@@ -104,23 +84,17 @@
 			</div><!-- /.navbar-collapse -->
 		</nav>
 
-		<!-- Main Parallax Wrapper -->
-		<div class="parallax">
-
 			<!-- Intro Header/First Section -->
 			<header class="intro">
-				<div class="parallax-section" id="section-1">
-					<div class="parallax-layer parallax-layer-base">
 
-						<!-- Container to Center Content -->
-						<div class="full-bg-img flex-center">
-							<div id="title" class="slide">
-								<h1>Hippo Corp.</h1>
-								<p></p>
-								<p>Mobile Apps | Websites | Web Apps | Consulting</p>
-							</div>
-						</div>
+				<!-- Container to Center Content -->
+				<div class="full-bg-img flex-center">
+					<div id="title" class="slide">
+						<h1>Hippo Corp.</h1>
+						<p></p>
+						<p>Mobile Apps | Websites | Web Apps | Consulting</p>
 					</div>
+				</div>
 			</header>
 
 			<!-- About Section -->
@@ -315,7 +289,6 @@
 					</section>
 				</div><!-- /CONTACT FORM-->
 			</div>
-		</div>
 
 		<!-- sfooter-content-->
 		<footer>
