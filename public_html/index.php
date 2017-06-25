@@ -15,7 +15,6 @@
 	</head>
 
 	<body>
-		<img src="img/spacer.png" alt="Spacer">
-		<h1>The Hippo is coming soon..</h1>
+
 	</body>
 </html>
