@@ -1,8 +1,16 @@
 html {
-	background: url(../img/hippocorp.png) no-repeat center center fixed;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	background: url(../img/splash.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: contain;
 	background-color: white;
+}
+
+h1 {
+	margin: 0;
+	font-size: 40px;
+	align-items: center;
+	text-align: center;
 }
