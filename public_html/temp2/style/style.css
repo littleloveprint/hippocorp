@@ -281,9 +281,13 @@ ul.banner-social-buttons {
 	color: white;
 }
 
-/**.parallax {
-	background: url("../img/other-water.png");
-}**/
+/*.full-bg-img {*/
+	/*background: url("../img/other-water.png");*/
+	/*filter: blur(5px);*/
+	/*background-size: 100% 100%;*/
+	/*color: white;*/
+/*}*/
+
 	.sfooter {
 		display: flex;
 		flex-direction: column;
